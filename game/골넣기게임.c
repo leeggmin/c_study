@@ -27,7 +27,7 @@ void mainGame() {
 	int a, random = 0;
 	random = rand() % 2;
 	gameCount+=1;
-	printf("%d번째 시도\n", gameCount);
+	printf("%.0lf번째 시도\n", gameCount);
 	printf("┌――――――――――――-―――┐\n");
 	printf("│               ●              │\n");
 	printf("│  왼쪽 : 0   ┎ ╋ ┑  오른쪽 : 1 │\n");
