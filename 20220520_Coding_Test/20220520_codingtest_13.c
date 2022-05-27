@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 int main() {
 	int b, a, result2[10] = { 0 }, count = 0, count2 = 0,
 		result[11] = { 0,100,200,300,400,500,600,700,800,900 };
@@ -15,10 +15,10 @@ int main() {
 	if (count % 2 == 1)count = count / 2 + 1;
 	for (int i = 0; i < 10; i++) {
 		if (result2[i] != 0) {
-			printf("%d : %d°³\n", result[i], result2[i]);
+			printf("%d : %dê°œ\n", result[i], result2[i]);
 		}
 	}
-	if (count2 >= count)printf("¸ñÇ¥ ´Þ¼º!");
+	if (count2 >= count)printf("ëª©í‘œ ë‹¬ì„±!");
 
 	return 0;
 }

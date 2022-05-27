@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 int main() {
 	int a, b, dog_leg, chick_leg;
 	scanf("%d %d", &a, &b);
@@ -8,7 +8,7 @@ int main() {
 		{
 			chick_leg = j * 2;
 			if (dog_leg + chick_leg == b && i + j == a) {
-				printf("º´¾Æ¸® %d¸¶¸®, °­¾ÆÁö %d¸¶¸®", j, i);
+				printf("ë³‘ì•„ë¦¬ %dë§ˆë¦¬, ê°•ì•„ì§€ %dë§ˆë¦¬", j, i);
 				return 0;
 			}
 		}
