@@ -37,6 +37,7 @@ void mainGame() {
 	scanf("%d", &a);
 	if (a != 0 && a != 1) {
 		printf("올바른 값을 입력해주세요.\n");
+		gameCount--;
 		return 0;
 	}
 	else if (random == a) {
