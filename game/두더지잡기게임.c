@@ -285,7 +285,7 @@ void gameRule() {
 	printf("├――――――――――┤\n");
 	printf("│   - 인게임설명 -   │\n");
 	printf("│                    │\n");
-	printf("│ 제한시간 내에 모든 │\n");
+	printf("│  10초 이내에 모든  │\n");
 	printf("│두더지를 잡으면 성공│\n");
 	printf("│                    │\n");
 	printf("│      빈곳 : 0      │\n");
