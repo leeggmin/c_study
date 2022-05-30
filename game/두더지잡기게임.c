@@ -34,6 +34,8 @@ int main() {
 		}
 		mainMenu(before_y);
 	}
+
+	return 0;
 }
 
 void mainMenu(int y) {
