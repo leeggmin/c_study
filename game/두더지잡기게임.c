@@ -209,12 +209,16 @@ void gameStart(int level) {
 			for (int j = 0; j <= cnt2; j++)
 			{
 				gotoxy(i, j);
+				if (arr[i][j] == 1) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 12);
+				else SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 				printf("%d", arr[i][j]);
 			}
 		}
 
 		gotoxy(player_x, player_y);
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);
 		printf("2");
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 
 		if (count == 0 && (double)(now - start) / 1000 < 10) {
 			gotoxy(cnt2+2, cnt2/2-1);
@@ -312,7 +316,7 @@ int levelSelect() {
 	printf("┌――――――――――┐\n");
 	printf("│  - 난이도 선택 -   │\n");
 	printf("│   하 : 5*5, 3개    │\n");
-	printf("│   중 : 10*10, 5개  │\n");
+	printf("│   중 : 11*11, 5개  │\n");
 	printf("│   상 : 15*15, 7개  │\n");
 	printf("│                    │\n");
 	printf("│ 결정 : 스페이스바  │\n");
